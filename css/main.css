@@ -1,0 +1,24 @@
+table tr th, table tr td {
+    width: 160px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#form input {
+    width: 157px;
+    margin-left: 2px;
+}
+
+table td {
+    width: 200px;
+    padding: 4px 0;
+    text-align: center;
+}
+
+th:hover {
+    background-color: yellow;
+}
+
+select {
+    width: 150px;
+}

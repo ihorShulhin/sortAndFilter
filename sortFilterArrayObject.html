@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>SORT ARRAYS FILTER OBJECT</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <form id="form">
+            <input type="text" class="inputData" id="brand" value="" placeholder="Enter brand">
+            <input type="text" class="inputData" id="model" value="" placeholder="Enter model">
+            <input type="text" class="inputData" id="processor" value="" placeholder="Enter processor">
+            <input type="text" class="inputData" id="diagonal" value="" placeholder="Enter diagonal">
+            <input type="text" class="inputData" id="rom" value="" placeholder="Enter rom">
+            <input type="text" class="inputData" id="ram" value="" placeholder="Enter ram">
+            <input type="button" id="btnAdd" value="Add">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th id="brand" data-type="string" type-sort="0">Brand</th>
+                    <th id="model" data-type="string" type-sort="0">Model</th>
+                    <th id="processor" data-type="string" type-sort="0">Processor</th>
+                    <th id="diagonal" data-type="number" type-sort="0">Diagonal</th>
+                    <th id="rom" data-type="number" type-sort="0">ROM</th>
+                    <th id="ram" data-type="number" type-sort="0">RAM</th>
+                </tr>
+                <tr>
+                    <th><select id="selBrand" class="selOption"><option value="all">all</option></select></th>
+                    <th><select id="selModel" class="selOption"><option value="all">all</option></select></th>
+                    <th><select id="selProcessor" class="selOption"><option value="all">all</option></select></th>
+                    <th><select id="selDiagonal" class="selOption"><option value="all">all</option></select></th>
+                    <th><select id="selROM" class="selOption"><option value="all">all</option></select></th>
+                    <th><select id="selRAM" class="selOption"><option value="all">all</option></select></th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <input type="button" id="btnLoad" value="Load">
+        <input type="button" id="btnClear" value="Clear Table">
+        <input type="button" id="btnDel" value="Del">
+        <input type="button" id="btnSave" value="Save">
+        </form>
+        <script src="script/sortFilterArrayObject.js" charset="utf-8"></script>
+    </body>
+</html>
